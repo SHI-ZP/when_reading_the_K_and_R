@@ -22,11 +22,11 @@ main()
         else if (c == '\n')
         {
             ++numNewline;
-            continue;
-        }
-        else if (c == 10)
-        {
             printf("The number of blanks: %d, tabs: %d, newlines: %d\n", numBlank, numTab, numNewline);
+            numBlank = 0;
+            numTab = 0;
+            numNewline = 0;
+            continue;
         }
     }
 }
