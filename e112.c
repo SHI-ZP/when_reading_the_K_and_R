@@ -13,13 +13,9 @@ main()
                 if (c == ' ' || c == '\t')
                 {
                     continue;
-                    //printf("15");
-                    //putchar(c);
-                    //break;
                 }
                 else
                 {
-                    //printf("21");
                     putchar(c);
                     break;
                 }
